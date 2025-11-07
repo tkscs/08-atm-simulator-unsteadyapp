@@ -43,6 +43,8 @@ while True:
                 print(f"You deposited {howmuch} & have {balance} left.")
             else:
                 print("howmuch must be postive!")
+    elif(UInput == "exit"):
+        quit()
     else:
         print(f"unrecognized input: {UInput}. Try checkbalence, deposit, or widthdraw")
         
